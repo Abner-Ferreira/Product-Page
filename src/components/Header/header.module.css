@@ -1,0 +1,47 @@
+.container {
+  height: 10%;
+  width: 100%;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.logoContainer {
+  height: 100%;
+  width: 20%;
+}
+
+.imgLogo {
+  height: 100%;
+  width: 100px;
+}
+
+.menuList {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  list-style: none;
+  width: 50%;
+}
+
+.menuCategory {
+  text-decoration: none;
+  font-weight: 400;
+  color: #9b9b9bc0;
+}
+
+#active{
+  color: #585858;
+  font-weight: bolder;
+  text-decoration: underline black ;
+  text-underline-offset: 8px;
+  
+}

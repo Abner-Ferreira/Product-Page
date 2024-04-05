@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Lordcorps;
+  src: url("../../assets/fonts/lordcorps/Lordcorps.ttf");
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 30px 0;
+}
+
+.colorContainer , .sizes, .quantity{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid #9b9b9bc0;
+  width: 20%;
+  height: 50px;
+  margin: 0 20px 0 0;
+}
+
+.colorContainer span, .sizes span, .quantity span {
+  margin: 5px 0;
+  color: #646464;
+  font-weight: bold;
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.colors input {
+  margin: 0 2px;
+
+}
+
+#bege, #white, #black {
+  appearance:none;
+  border-radius:50%;
+  
+  width: 20px;
+  height: 20px;
+  transition:all ease-in 0.2s;
+}
+
+#bege{
+  border:2px solid #d0c9b7;
+  box-shadow:0 0 0 1px #d0c9b7;
+  background-color:#d0c9b7;
+}
+#black{
+  border:2px solid #000000;
+  box-shadow:0 0 0 1px #000000;
+  background-color:#000000;
+}
+#white{
+  border: 2px solid #ffffff ;
+  box-shadow:0 0 0 1px #000000;
+  background-color:#ffffff;
+}
+
+#black:checked {
+  accent-color: #000;
+  
+}
+#white:checked {
+  accent-color: #ffffff;
+  border: 1px solid #ffffff ;
+}
+
+#bege:checked {
+  accent-color: #d0c9b7;
+}
+
+#black:checked, #white:checked, #bege:checked{
+  width: 24px;
+  height: 24px;
+  appearance: auto 50%;
+  border: 2px solid white;
+}
+
+.sizes select {
+  width: 80%;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Lordcorps;
+  color: #a8a8a8;
+  letter-spacing: 2px;
+}
+
+.sizes select:focus {
+  border: 1px solid #646464 !important;
+}
+
+.qnttInfos{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+}
+
+.qnttInfos input{
+  width: 40%;
+  text-align: center;
+  border: none;
+  outline: none;
+  appearance: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Lordcorps;
+  color: #a8a8a8;
+  letter-spacing: 2px;
+}
+
+.qnttInfos button {
+  width: 20%;
+  height: 100%;
+  margin: 0 5px 0 0;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+}

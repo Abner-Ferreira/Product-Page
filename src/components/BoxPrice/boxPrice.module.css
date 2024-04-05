@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Lordcorps;
+  src: url("../../assets/fonts/lordcorps/Lordcorps.ttf");
+}
+
+.containerPrice{
+  width: 40%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  margin-left: 60%;
+}
+
+.infos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.infos h3{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Lordcorps;
+  color: #a8a8a8;
+}
+
+.price{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.price span{
+  color: #f00;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 10px 20px 0 0;
+}
+
+.price p {
+  font-size: 20px;
+  color: #a8a8a8;
+  text-decoration: line-through;
+  margin: 28px 0;
+}
+
+.price button {
+  margin: 20px 0 0 20px;
+  height: 30px;
+  width: 100px;
+  outline: none;
+  border: none;
+  background-color: #0f0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.desc{
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.desc h5 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #646464;
+}
+
+.desc p {
+  text-align: justify;
+}
